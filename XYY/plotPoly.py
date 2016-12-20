@@ -20,8 +20,8 @@ for i in range(0, N):
     y = pow(x, i + 1)
     plt.plot(x, y, color=colors[i], linestyle='-', linewidth=2)
 
-ax.set_xlim(-1, 1)
-ax.set_ylim(-1, 1)
+# ax.set_xlim(-1, 1)
+# ax.set_ylim(-1, 1)
 rc('font', size=fontAxis)
 
 plt.xlabel('$x$', fontsize=fontAxis, fontweight='bold')
